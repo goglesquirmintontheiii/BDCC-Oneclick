@@ -8,7 +8,6 @@ If you want to use multiple versions and want to easily launch downloaded versio
 
 -E, -UE, and -GUE versions will __only__ run on windows, unless you use Wine. If you use linux, mac, or any other OS that isn't windows, stick to -P, -UP, or -GUP
 
-
 # How to use (by version type)
 
 ## '-P' (python) version 
