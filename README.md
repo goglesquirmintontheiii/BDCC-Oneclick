@@ -1,5 +1,6 @@
 # BDCC-Oneclick
 BDCC-Oneclick is an easy-to-use updater+installer utility for the game Broken Dreams Correctional Center (BDCC)
+(For now) there is only a -E and -P version, while I check for bugs and do minor upgrades/fixes.
 
 # Which version is right for me?
 If you just want a lightweight and simple updater, use a -P or -E version. Use -P if you want access to configuration.
