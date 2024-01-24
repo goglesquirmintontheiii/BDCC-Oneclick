@@ -35,9 +35,26 @@ except:
     import requests
 
 from platform import system as sysn
-def Version(inp : str) -> int:
+def Version(_inp : str) -> int:
+    off = 0
+    inp = "".join([v for v in _inp if v in "1234567890.-"])
+
+    if len(inp) != len(_inp):
+        buf = ""
+        _ok = True
+        for v in _inp:
+            if _ok:
+                if v not in "1234567890.-":
+                    _ok = False
+            else:
+                if v in "1234567890":
+                    buf += v
+        try:
+            off=int(buf)
+        except:
+            off = 0
     spl = inp.split('-')[0].split('.')
-    spl = [int(spl[0]),int(spl[1]),int(spl[2])]
+    spl = [int(spl[0]),int(spl[1]),int(spl[2])+off]
     return (spl[0]*100)+(spl[1]*10)+spl[2]
 
 
