@@ -28,3 +28,6 @@ BDCC-NSMOD and BDCC use different data directories, so your mods, settings, and 
 
 
 This utility has been well tested and has worked without errors under multiple circumstances.
+
+## Known issues
+There are no known issues at this time. If there is one, I'll put it here until I fix it
